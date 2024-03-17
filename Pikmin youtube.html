@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="caca.css">
+<title>YouTube Video Groups</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .video-group {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .video-group h2 {
+        margin-top: 0;
+        font-size: 20px;
+        color: #333;
+    }
+    .video-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .video-list-item {
+        margin-bottom: 10px;
+    }
+    .video-list-item a {
+        text-decoration: none;
+        color: #666;
+        display: block;
+        padding: 5px 0;
+        transition: color 0.3s ease;
+    }
+    .video-list-item a:hover {
+        color: #d0ff00;
+    }
+</style>
+</head>
+<body class="background">
+<div class="container">
+    <div class="video-group">
+        <h2>Oficial videos</h2>
+        <ul class="video-list">
+            <li class="video-list-item"><a href="https://www.youtube.com/watch?v=RPiT-s4i0rw">Pikmin 4 trailer</a></li>
+            <li class="video-list-item"><a href="https://www.youtube.com/watch?v=aSSQ0Z6eDhU">Pikmin 3 deluxe trailer</a></li>
+            <li class="video-list-item"><a href="https://www.youtube.com/watch?v=xVuVaMkgBEg">Pikmin 1+2 trailer</a></li>
+        </ul>
+    </div>
+    <div class="video-group">
+        <h2>Videos from fans</h2>
+        <ul class="video-list">
+            <li class="video-list-item"><a href="https://www.youtube.com/watch?v=TQXAQZsmSkM">Pikmin 4 gameplay</a></li>
+            <li class="video-list-item"><a href="https://www.youtube.com/watch?v=gYuwv9gJHjU">Pikmin 3 deluxe gameplay</a></li>
+            <li class="video-list-item"><a href="https://www.youtube.com/watch?v=FC-PfM-tlDw">Pikmin 1+2 gameplay</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

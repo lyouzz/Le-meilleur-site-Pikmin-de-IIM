@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.presentation-contenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloc-1{
+    width: 50%;
+    height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .bloc-1{
+        width: 100%;
+    }
+}
+
+.background{
+    background-image: url(pikmin_website_background.jpg);
+    width: fit-content;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.background-2{
+    background-image: url(pikmin_wallpaper\ 2.jpg);
+    width: 100%;
+    background-size: 166%;
+    background-position: 100%;
+    
+}
+
+.green{
+    color: greenyellow;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.logo{
+    cursor: pointer;
+}
+.menu-icon{
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+p{
+    color: rgb(0, 82, 18);
+    font-size: 16px;
+    line-height: 20px;
+}
+h5{
+    color: black;
+}
+
+button{
+    width: 180px;
+    color: rgb(168, 253, 32);
+    font-size: 12px;
+    padding: 12px 0;
+    background: url(pikmin\ bloom.jpg);
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(pikmin\ 4.webp);
+}
+.card2{
+    background-image: url(pikmin\ 3\ dx\ icon.jpg);
+}
+.card3{
+    background-image: url(pikmin\ 1+2.png);
+}
+.card4{
+    background-image: url(pikmin\ bloom.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
